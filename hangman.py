@@ -28,7 +28,7 @@ def poomismäng(sõna):
                 print(f'Antud tähte selles sõnas pole, {elud} elu alles')
 
         if all(täht != '_' for täht in lüngad):
-            print(f'{sõna}\n Arvasite sõna ära!')
+            print(f'{sõna}\n Arvasite sõna ära! Elusid jäi alles {elud}')
             break
 
     if elud == 0:
